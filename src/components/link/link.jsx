@@ -5,7 +5,7 @@ import { ReactComponent as Icon } from "../../assets/icons/links.svg";
 function LinkComp({title}) {
   return (
     <a href="#">
-      <div className="link_comp">
+      <div className="link_comp opacity_btn">
         <p>{title}</p>
         <Icon />
       </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import { ReactComponent as PageLogo } from "../../assets/icons/sidebar-icons/4-4.svg";
 import big_graph from "../../assets/images/big-graph.png";
-import { ReactComponent as Settings } from "../../assets/icons/settings.svg";
 import { ReactComponent as Reload } from "../../assets/icons/reload.svg";
 import { ReactComponent as ArrowDown } from "../../assets/icons/arrow-down.svg";
 import { ReactComponent as Edit } from "../../assets/icons/edit.svg";
 
 import "./swap.css";
 import ConnectWalletModule from "../../components/connect-wallet/connect-wallet";
+import Settings from "../../components/settings/settings";
 
 function SwapPage() {
   return (
@@ -61,16 +61,14 @@ function SwapPage() {
         <div className="swap_farming card2">
           <div className="swap_farming_title">
             <h4>Farming</h4>
-            <button className="settings_btn">
-              <Settings />
-            </button>
+            <Settings />
             <button className="settings_btn">
               <Reload />
             </button>
           </div>
 
           <div className="swap_farming_wrapper">
-            <div className="reselect">
+            <div className="reselect opacity_btn">
               <PageLogo />
             </div>
             <div className="swap_farming_selects">
@@ -81,10 +79,10 @@ function SwapPage() {
                 </div>
                 <input value={0.0} type="text" className="main_input" />
                 <div className="inp_values">
-                  <div>25%</div>
-                  <div>50%</div>
-                  <div>75%</div>
-                  <div>Max</div>
+                  <div className="opacity_btn">25%</div>
+                  <div className="opacity_btn">50%</div>
+                  <div className="opacity_btn">75%</div>
+                  <div className="opacity_btn">Max</div>
                 </div>
               </div>
               <div className="swap_farming_select">
@@ -94,10 +92,10 @@ function SwapPage() {
                 </div>
                 <input value={0.0} type="text" className="main_input" />
                 <div className="slippage">
-                  <h5>Slippage Tolerance </h5>
+                  <h5 className="opacity_btn">Slippage Tolerance </h5>
                   <div>
                     <p>0.5%</p>
-                    <Edit />
+                    <Edit className="opacity_btn" />
                   </div>
                 </div>
               </div>

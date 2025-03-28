@@ -2,8 +2,9 @@ import React from "react";
 import "./nav-bar.css";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { ReactComponent as Settings } from "../../assets/icons/settings.svg";
+
 import ConnectWalletModule from "../connect-wallet/connect-wallet";
+import Settings from "../settings/settings";
 
 function NavBar() {
   return (
@@ -15,9 +16,7 @@ function NavBar() {
         <div className="nav_btns">
           <button className="main_btn trans_btn">BNB Smart chain</button>
           <ConnectWalletModule />
-          <button className="settings_btn">
-            <Settings />
-          </button>
+          <Settings />
         </div>
       </div>
     </nav>

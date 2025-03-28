@@ -22,7 +22,7 @@ function ConnectWalletModule({ size }) {
       >
         <div className="modal" onClick={(e) => e.stopPropagation()}>
           <div className="modal_title">
-            <h4>Choose network</h4>
+            <p>Choose network</p>
             <div className="exit_modal" onClick={() => setModal(!modal)}>
               <Exit />
             </div>
@@ -42,7 +42,7 @@ function ConnectWalletModule({ size }) {
                 <p>(Testnet)B...</p>
               </div>
               <div className="network_select">
-                <img src={eth} alt="" />
+                <img src={omex} alt="" />
                 <p>OMEXETH</p>
               </div>
             </div>

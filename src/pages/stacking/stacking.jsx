@@ -1,8 +1,9 @@
 import React from "react";
 import { ReactComponent as PageLogo } from "../../assets/icons/sidebar-icons/2-2.svg";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import LinkComp from "../../components/link/link";
+
 import "./stacking.css";
+import StackingModal from "./stacking-modal";
 
 function StackingPage() {
   return (
@@ -28,7 +29,7 @@ function StackingPage() {
       <div className="staked_assets">
         <div className="block_title">
           <h4>Staked Assets</h4>
-          <LinkComp title="See all Staked Assets" />
+          <StackingModal />
         </div>
         <div className="main_table">
           <table>
