@@ -470,6 +470,9 @@
     overflow: auto;
     width: 100%;
   }
+  .main_table::-webkit-scrollbar {
+    display: none; 
+  }
   .main_table table {
     width: 1000px;
   }

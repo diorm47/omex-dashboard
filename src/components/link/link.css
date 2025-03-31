@@ -15,3 +15,9 @@
   letter-spacing: 0%;
   text-align: left;
 }
+
+@media only screen and (max-width: 500px) {
+  .link_comp p {
+    font-size: 14px;
+  }
+}
