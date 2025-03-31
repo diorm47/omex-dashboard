@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(4, 7, 14);
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+input {
+  outline: none;
+  background: transparent;
+}
+
+.container {
+  width: 100%;
+  max-width: 1888px;
+  margin: 0 auto;
+}
+
+.main_btn {
+  border-radius: 100px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 0 48px;
+  height: 54px;
+}
+.page_wrapper {
+  padding-top: 16px;
+}
+.blue_btn {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgb(164, 185, 255),
+    rgb(68, 112, 254) 100%
+  );
+}
+.blue_btn:hover {
+  transition: all 0.4s ease;
+  background: linear-gradient(
+    270deg,
+    rgb(144, 168, 249),
+    rgb(54, 96, 231) 100%
+  );
+}
+
+.trans_btn {
+  background: transparent;
+  border: 1px solid rgb(68, 112, 254);
+  color: rgb(68, 112, 254);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.trans_btn:hover {
+  transition: all 0.4s ease;
+  background-color: rgba(68, 111, 254, 0.14);
+}
+.opacity_btn {
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.opacity_btn:hover, .settings_btn:hover {
+  transition: all 0.4s ease;
+  opacity: 0.7;
+}
+
+.settings_btn {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  margin-left: 24px;
+}
+
+.page_wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 40px;
+}
+
+.page_content {
+  width: 75%;
+}
+
+.card {
+  border-radius: 16px;
+  padding: 40px;
+  background: rgba(160, 182, 255, 0.05);
+  margin-bottom: 16px;
+}
+.card2 {
+  border-radius: 8px;
+  padding: 24px;
+  background: rgba(160, 182, 255, 0.05);
+  margin-bottom: 16px;
+}
+
+.card3 {
+  border-radius: 8px;
+  padding: 16px;
+  background: rgba(160, 182, 255, 0.05);
+}
+
+.page_title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.page_title p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}

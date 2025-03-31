@@ -1,0 +1,17 @@
+.link_comp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.link_comp p {
+  color: rgb(68, 112, 254);
+  opacity: 0.7;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}

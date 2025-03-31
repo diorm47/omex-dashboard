@@ -1,0 +1,18 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_2094">
+			<rect id="solar:wad-of-money-line-duotone" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="solar:wad-of-money-line-duotone" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_2094)">
+		<path id="Vector" d="M3.77 18.32C3.34 18.03 2.96 17.65 2.67 17.22C2 16.21 2 14.81 2 12C2 9.18 2 7.78 2.67 6.77C2.96 6.34 3.34 5.96 3.77 5.67C4.78 5 6.19 5 9 5L15 5C17.8 5 19.21 5 20.22 5.67C20.65 5.96 21.03 6.34 21.32 6.77C22 7.78 22 9.18 22 12C22 14.81 22 16.21 21.32 17.22C21.03 17.65 20.65 18.03 20.22 18.32C19.21 19 17.81 19 15 19L9 19C6.19 19 4.78 19 3.77 18.32Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<g opacity="0.500000">
+			<path id="Vector" d="M9 9C8.2 9 7.44 9.31 6.87 9.87C6.31 10.44 6 11.2 6 12C6 12.79 6.31 13.55 6.87 14.12C7.44 14.68 8.2 15 9 15M15 9C15.79 9 16.55 9.31 17.12 9.87C17.68 10.44 18 11.2 18 12C18 12.79 17.68 13.55 17.12 14.12C16.55 14.68 15.79 15 15 15" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		</g>
+		<path id="Vector" d="M9 5L9 18.5M15 5L15 18.5" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+	</g>
+</svg>

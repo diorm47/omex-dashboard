@@ -1,0 +1,143 @@
+.swap_farming_title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(160, 182, 255, 0.05);
+}
+
+.swap_farming_title .settings_btn {
+  margin: 0;
+}
+
+.swap_farming_title h4 {
+  color: rgb(255, 255, 255);
+  margin-right: 17px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.swap_farming .main_btn {
+  width: 100%;
+}
+
+.swap_farming_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+
+.reselect {
+  border-radius: 8px;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  background: rgba(160, 182, 255, 0.05);
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.swap_farming_selects {
+  width: 86%;
+}
+
+.swap_farming_select_token {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.swap_farming_select_token p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.swap_farming_select_token svg * {
+  fill: #fff;
+}
+
+.inp_values {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.inp_values div {
+  border-radius: 100px;
+  padding: 4px 8px 4px 8px;
+  cursor: pointer;
+  background: rgba(160, 182, 255, 0.1);
+  color: rgb(255, 255, 255);
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.swap_farming_selects .swap_farming_select:nth-child(1) {
+  margin-bottom: 32px;
+}
+
+.slippage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.slippage h5 {
+  color: rgb(68, 112, 254);
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.slippage div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.slippage p {
+  color: rgb(255, 255, 255);
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.slippage svg {
+  cursor: pointer;
+}
+
+.liqudity {
+  max-width: 698px;
+  width: 100%;
+}
+
+.swap_comps .left_col .block_title {
+  display: none;
+}

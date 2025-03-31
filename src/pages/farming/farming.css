@@ -1,0 +1,67 @@
+.farm_infos {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(160, 182, 255, 0.05);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.farm_infos .info_card h4 {
+  margin-bottom: 8px;
+}
+
+.farm_actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  justify-content: center;
+  width: 100%;
+  gap: 24px;
+}
+
+.farm_actions button {
+  width: 100%;
+}
+.farm_actions a:nth-child(1) {
+  width: 100%;
+}
+
+.page_title_w {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grey_filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.grey_filter div {
+  border-radius: 100px;
+  padding: 8px 12px 8px 12px;
+  background: rgba(160, 182, 255, 0.1);
+  color: rgb(255, 255, 255);
+  transition: all 0.4s ease;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  cursor: pointer;
+  border: 1px solid transparent;
+
+  text-align: center;
+}
+.grey_filter div:hover {
+  transition: all 0.4s ease;
+  border: 1px solid rgb(160, 182, 255);
+}
+
+.active_grey_filter {
+  border: 1px solid rgb(160, 182, 255) !important;
+  border-radius: 100px;
+  background: rgba(160, 182, 255, 0.1);
+}

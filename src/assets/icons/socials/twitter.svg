@@ -1,0 +1,19 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_2119">
+			<rect id="prime:twitter" rx="0.000000" width="22.285715" height="22.285715" transform="translate(0.857143 0.857143)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="prime:twitter" rx="0.000000" width="22.285715" height="22.285715" transform="translate(0.857143 0.857143)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_2119)">
+		<mask id="mask1_2122" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="24.000000" height="24.000000">
+			<path id="Vector" d="M0 0L24 0L24 24L0 24L0 0Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</mask>
+		<g mask="url(#mask1_2122)">
+			<path id="Vector" d="M18.9 1.12L22.58 1.12L14.54 10.33L24 22.87L16.59 22.87L10.78 15.27L4.15 22.87L0.47 22.87L9.07 13.01L0 1.12L7.59 1.12L12.83 8.07L18.9 1.12ZM17.6 20.66L19.64 20.66L6.48 3.21L4.29 3.21L17.6 20.66Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

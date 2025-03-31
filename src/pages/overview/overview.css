@@ -1,0 +1,385 @@
+.overview_top {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: transparent;
+  border: 1px solid #526087;
+}
+
+.overview_top_title {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.overview_top_title h2 {
+  color: rgb(255, 255, 255);
+
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.overview_top_desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.overview_top_desc .main_btn {
+  width: 428px;
+}
+
+.overview_top_desc h3 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.overview_top_desc p {
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.info_cards {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-top: 1px solid rgba(160, 182, 255, 0.05);
+  margin-top: 16px;
+  padding-top: 16px;
+}
+
+.info_card h4 {
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.info_card p {
+  color: rgb(255, 255, 255);
+  opacity: 0.4;
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.info_card div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.info_card h3 {
+  color: rgb(255, 255, 255);
+
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.info_card_p {
+  border-radius: 100px;
+  padding: 8px;
+  background: rgb(68, 112, 254);
+}
+
+.info_card_p h5 {
+  color: rgb(255, 255, 255);
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.overview_diagramms {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.block_title {
+  margin-bottom: 8px;
+}
+
+.block_title h4 {
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.main_graph_desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.diagram_dates {
+  display: flex;
+  align-items: center;
+}
+
+.diagram_date {
+  width: 66px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: all 0.4s ease;
+}
+.diagram_date:hover {
+  transition: all 0.4s ease;
+  background: rgb(255, 255, 255);
+}
+.diagram_date:hover p {
+  transition: all 0.4s ease;
+
+  font-weight: 700;
+  color: rgb(68, 112, 254);
+}
+
+.diagram_date p {
+  color: rgb(255, 255, 255);
+  transition: all 0.4s ease;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.diagram_date_active {
+  background: rgb(255, 255, 255);
+}
+.diagram_date_active p {
+  font-weight: 700;
+  color: rgb(68, 112, 254);
+}
+
+.main_graph_desc {
+  margin-bottom: 60px;
+}
+
+.big_graph {
+  width: 100%;
+  margin-bottom: 58px;
+}
+.graph_btn {
+  width: 100%;
+}
+
+.small_diagram h3 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 8px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.small_graph {
+  width: 100%;
+}
+
+.staked_assets {
+  margin-bottom: 16px;
+}
+
+.block_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.main_table thead {
+  border-radius: 8px 8px 0px 0px;
+
+  background: rgb(160, 182, 255);
+}
+
+.main_table thead td {
+  padding: 24px 0;
+  color: rgb(4, 7, 14);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.main_table thead tr td:first-child {
+  text-align-last: left;
+  padding-left: 24px;
+  border-radius: 8px 0 0 0;
+}
+
+.main_table thead tr td:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+.main_table tbody td {
+  background: rgba(160, 182, 255, 0.05);
+  padding: 24px 0;
+  color: rgb(255, 255, 255);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.main_table tbody tr {
+  transition: all 0.4s ease;
+}
+.main_table tbody tr:hover {
+  transition: all 0.4s ease;
+  background: rgba(160, 182, 255, 0.132);
+}
+
+.main_table .info_card_p {
+  max-width: 60px;
+  margin: 0 auto;
+}
+.main_table .info_card_p h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.main_desc_table {
+  width: 100%;
+  padding-left: 24px;
+}
+
+.main_desc_table_title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.main_desc_table_title svg {
+  width: 24px;
+  height: 24px;
+}
+.main_desc_table_title h4 {
+  color: rgb(255, 255, 255);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.main_desc_table_types {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.main_desc_table_types div {
+  border-radius: 100px;
+  padding: 4px 8px 4px 8px;
+  background: rgba(160, 182, 255, 0.1);
+  color: rgb(255, 255, 255);
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.swap_calc_block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px;
+}
+
+.swap_calc_item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.calc_select {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.calc_select p {
+  color: rgb(68, 112, 254);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.arrow_down {
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(160, 182, 255, 0.05);
+}
+
+.main_input {
+  width: 100%;
+  padding: 12px 24px 12px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(51, 62, 89);
+  border-radius: 100px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.swap_calc_item .main_input {
+  width: 70%;
+}
