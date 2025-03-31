@@ -13,25 +13,29 @@ import MainGraph from "../../components/main-graph/main-graph";
 function OverviewPage() {
   return (
     <>
-      <div className="overview_top card">
-        <div className="overview_top_title">
-          <Logo />
-          <h2>Token Generation</h2>
-        </div>
-        <div className="overview_top_desc">
-          <div>
-            <h3>
-              Effortlessly Create and customize Tokens Across 16 EVM Networks
-            </h3>
-            <p>
-              Create and deploy your smart contract in minutes! No coding
-              required. Verified on chain instantly with advanced features and
-              options for all your token needs.
-            </p>
+      {!localStorage.getItem("token") ? (
+        <div className="overview_top card">
+          <div className="overview_top_title">
+            <Logo />
+            <h2>Token Generation</h2>
           </div>
-          <ConnectWalletModule />
+          <div className="overview_top_desc">
+            <div>
+              <h3>
+                Effortlessly Create and customize Tokens Across 16 EVM Networks
+              </h3>
+              <p>
+                Create and deploy your smart contract in minutes! No coding
+                required. Verified on chain instantly with advanced features and
+                options for all your token needs.
+              </p>
+            </div>
+            <ConnectWalletModule />
+          </div>
         </div>
-      </div>
+      ) : (
+        ""
+      )}
 
       <div className="overview_main card">
         <div className="page_title">
@@ -249,7 +253,6 @@ function OverviewPage() {
               name=""
               id=""
               readOnly
-
             />
           </div>
         </div>

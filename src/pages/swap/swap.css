@@ -6,12 +6,17 @@
   margin-bottom: 16px;
   border-bottom: 1px solid rgba(160, 182, 255, 0.05);
 }
+.swap_farming_title_btns{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
 .swap_farming_title .settings_btn {
   margin: 0;
 }
 
-.swap_farming_title h4 {
+.swap_farming_title h3 {
   color: rgb(255, 255, 255);
   margin-right: 17px;
   font-size: 20px;
@@ -140,4 +145,23 @@
 
 .swap_comps .left_col .block_title {
   display: none;
+}
+
+@media only screen and (max-width: 1050px) {
+  .swap_comps {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {  
+  .reselect  {
+    display: none;
+  }
+  .swap_farming_selects {
+    width: 100%;
+  }
+  .swap_farming_title {
+    justify-content: space-between;
+  }
 }

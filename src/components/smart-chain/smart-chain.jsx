@@ -6,12 +6,20 @@ import bnb from "../../assets/images/crypto/bnb.png";
 import omex from "../../assets/images/crypto/omex.png";
 
 function SmartChain() {
+  const networks = [
+    { name: "Ethereum ...", img: eth },
+    { name: "BNB Smart...", img: bnb },
+    { name: "(Testnet)B...", img: bnb },
+    { name: "OMEXETH", img: omex },
+  ];
   const [modal, setModal] = useState(false);
+  const [selectedNetwork, setSelectedNetwork] = useState(networks[1]);
 
   return (
     <>
-      <button className="main_btn trans_btn" onClick={() => setModal(!modal)}>
-        BNB Smart chain
+      <button className="main_btn trans_btn chain_btn" onClick={() => setModal(!modal)}>
+        <img src={selectedNetwork.img} alt="" />
+        {selectedNetwork.name}
       </button>
 
       <div
@@ -27,22 +35,19 @@ function SmartChain() {
           </div>
           <div className="modal_content">
             <div className="network_choose">
-              <div className="network_select">
-                <img src={eth} alt="" />
-                <p>Ethereum ...</p>
-              </div>
-              <div className="network_select">
-                <img src={bnb} alt="" />
-                <p>BNB Smart...</p>
-              </div>
-              <div className="network_select">
-                <img src={bnb} alt="" />
-                <p>(Testnet)B...</p>
-              </div>
-              <div className="network_select">
-                <img src={omex} alt="" />
-                <p>OMEXETH</p>
-              </div>
+              {networks.map((network) => (
+                <div
+                  className={`network_select ${
+                    selectedNetwork.name != network.name ||
+                    "active_network_select"
+                  }`}
+                  key={network.name}
+                  onClick={() => setSelectedNetwork(network)}
+                >
+                  <img src={network.img} alt="" />
+                  <p>{network.name}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

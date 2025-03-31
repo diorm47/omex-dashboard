@@ -65,3 +65,16 @@
   border-radius: 100px;
   background: rgba(160, 182, 255, 0.1);
 }
+
+
+@media only screen and (max-width: 500px) { 
+  .page_title_w {
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+  }
+  .farm_infos {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -110,3 +110,20 @@
 .toggler {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 500px) {
+  .modal_item_title p {
+    font-size: 14px;
+  }
+  .modal_select p {
+    font-size: 14px;
+  }
+  .modal_select {
+    padding: 8px 12px;
+  }
+  .modal_input input {
+    width: 53px;
+    height: 37px;
+    font-size: 14px;
+  }
+}

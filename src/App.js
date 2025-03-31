@@ -18,6 +18,7 @@ function App() {
         <div className="main_wrapper">
           <NavBar />
           <div className="page_wrapper container">
+            
             <Sidebar />
             <div className="page_content">
               <Routes>

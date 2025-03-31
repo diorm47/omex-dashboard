@@ -26,6 +26,7 @@ function ConnectWalletModule({ size }) {
       const { address } = walletData;
       setAddress(address);
       localStorage.setItem("token", address);
+      window.location.reload();
     } catch (error) {
       console.error("Connection error:", error);
       alert(`Connection error: ${error.message}`);

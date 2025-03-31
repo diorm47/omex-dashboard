@@ -383,3 +383,132 @@
 .swap_calc_item .main_input {
   width: 70%;
 }
+
+@media only screen and (max-width: 1050px) {
+  .overview_diagramms {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .overview_top_title h2 {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .overview_top_title {
+    margin-bottom: 16px;
+  }
+  .overview_top_desc {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .overview_top_desc .main_btn {
+    width: 100%;
+  }
+  .overview_top_desc h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .overview_top_desc p {
+    font-size: 14px;
+  }
+  .info_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .info_card {
+    width: 100%;
+  }
+  .info_card h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .info_card p {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  .info_card h3 {
+    font-size: 24px;
+  }
+  .info_card_p h5 {
+    font-size: 10px;
+  }
+  .info_card_p {
+    padding: 4px;
+  }
+  .main_graph_desc {
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 8px;
+  }
+  .diagram_dates {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .info_card h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .big_graph {
+    margin-bottom: 24px;
+  }
+  .small_diagram h3 {
+    font-size: 24px;
+  }
+  .block_title h4 {
+    font-size: 14px;
+  }
+  .main_table {
+    overflow: auto;
+    width: 100%;
+  }
+  .main_table table {
+    width: 1000px;
+  }
+  .main_table thead td,
+  .main_table tbody td {
+    padding: 16px 0;
+  }
+  .main_table thead tr td:first-child,
+  .main_desc_table {
+    padding-left: 16px;
+  }
+  .swap_calc_block {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .swap_calc_item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    gap: 8px;
+  }
+  .swap_calc_item .main_input {
+    width: 100%;
+  }
+  .arrow_down {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+  .calc_select p {
+    font-size: 14px;
+  }
+  .overview_main  {
+    margin-bottom: 32px;
+  }
+  .main_table tbody td, .main_table thead td {
+    font-size: 14px;
+  }
+}

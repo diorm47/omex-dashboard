@@ -1,7 +1,6 @@
 nav {
   background: rgba(160, 182, 255, 0.05);
   padding: 16px;
-  
 }
 
 .nav_wrapper {
@@ -14,4 +13,45 @@ nav {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.mob_sm_chain {
+  display: none;
+}
+.mob_menu {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+  nav {
+    padding: 24px 0;
+  }
+  .nav_logo svg {
+    width: 70px;
+    height: 70px;
+  }
+  .nav_btns .chain_btn,
+  .nav_btns .settings_btn {
+    display: none;
+  }
+  .page_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .mob_sm_chain {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    padding: 0 10px;
+  }
+  .mob_sm_chain button {
+    width: 100%;
+  }
+  .mob_menu {
+    display: flex !important;
+    margin: 0;
+  }
+  .nav_btns {
+    gap: 12px;
+  }
 }

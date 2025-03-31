@@ -10,11 +10,13 @@ function SwapComponent() {
   return (
     <div className="swap_farming card2">
       <div className="swap_farming_title">
-        <h4>Farming</h4>
-        <Settings />
-        <button className="settings_btn">
-          <Reload />
-        </button>
+        <h3>Farming</h3>
+        <div className="swap_farming_title_btns">
+          <Settings />
+          <button className="settings_btn">
+            <Reload />
+          </button>
+        </div>
       </div>
 
       <div className="swap_farming_wrapper">
