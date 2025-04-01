@@ -2,11 +2,12 @@ import React from "react";
 import "./nav-bar.css";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { ReactComponent as Menu } from "../../assets/icons/menu.svg";
+
 
 import ConnectWalletModule from "../connect-wallet/connect-wallet";
 import Settings from "../settings/settings";
 import SmartChain from "../smart-chain/smart-chain";
+import MobMenu from "./mob-menu";
 
 function NavBar() {
   return (
@@ -20,9 +21,7 @@ function NavBar() {
             <SmartChain />
             <ConnectWalletModule />
             <Settings />
-            <button className="mob_menu settings_btn">
-              <Menu />
-            </button>
+            <MobMenu />
           </div>
         </div>
       </nav>

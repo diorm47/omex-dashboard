@@ -13,7 +13,7 @@ import MainGraph from "../../components/main-graph/main-graph";
 function OverviewPage() {
   return (
     <>
-      {!localStorage.getItem("token") ? (
+      {!localStorage.getItem("walletAddress") ? (
         <div className="overview_top card">
           <div className="overview_top_title">
             <Logo />
